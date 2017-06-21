@@ -1,0 +1,179 @@
+
+/*CSS RESET:*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {	line-height: 1;}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+body{
+	width:100%;
+	margin:auto;
+	/*background-color: #D4ECF7;*/
+
+}
+
+div{
+
+	width:80%;
+
+}
+
+nav{
+	position:fixed;
+	width:20%;
+	height:100%;
+	right:0;
+	border-left: 1px dotted gray;
+	
+}
+
+
+nav a{
+	font-family: helvetica;
+	font-size:1.5em;
+	text-decoration: none;
+	color:black
+
+
+}
+
+nav #homebutton{
+
+	/*color:purple;*/
+	
+
+
+	
+}
+
+nav a:hover{
+
+    color:purple;
+
+
+}
+
+nav .navbutton{
+
+	width:2em;
+}
+
+nav ul{
+	/*position: fixed*/
+
+	text-align: center;
+	/*background-color: #A1EBFF;*/
+	
+
+/*	-webkit-box-shadow: -10px 0px 81px -4px rgba(20,0,20,0.2);
+	-moz-box-shadow: -10px 0px 81px -4px rgba(20,0,20,0.2);
+	box-shadow: -10px 0px 81px -4px rgba(20,0,20,0.2);*/
+}
+
+nav li{
+	
+	font-size:1.2em;
+	padding:12% 0 12% 0;
+	border-bottom:1px dotted gray;
+	color:gray;
+	
+}
+
+nav li img{
+	padding:5%;
+	width:90%;
+
+}
+
+#page1{
+
+	/*background-color: green;*/
+}
+
+
+#page1 img{
+		position: relative;
+		margin-top:3em;
+		width:100%;
+		height:auto;
+		z-index: -99;
+	
+}
+
+h1{
+
+
+	position: absolute;
+	left:10%;
+	right:50%;
+	top:7em;
+	padding:0.4em;
+	font-size:2.8em;	
+	color:orange;
+	background-color:white;
+	z-index: -99;
+	-webkit-box-shadow: 4px 9px 81px -4px rgba(20,0,20,0.4);
+	-moz-box-shadow: 4px 9px 81px -4px rgba(20,0,20,0.4);
+	box-shadow: 4px 9px 81px -4px rgba(20,0,20,0.4);
+	
+}
+
+
+
+#page2h1{
+	top:13em;
+	left:30%;
+	right:30%;
+	text-align: right;
+}
+
+#learnmore {
+
+	position: absolute;
+	top:17.5em;
+	left:50%;
+	color:white;
+	font-size:1.5em;
+
+}
+
+#page2{
+	position:relative;
+	height:900px;
+	background-color: white;
+	z-index: -99;
+}
+
